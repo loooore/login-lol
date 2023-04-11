@@ -125,6 +125,9 @@ main {
 .login__icons .icons__button:nth-child(3) {
   background-color: var(--black);
 }
+.login__icons .icons__button:nth-child(3) > a > img {
+  width: 27px;
+}
 
 .login__label--checkbox {
   width: 100%;
